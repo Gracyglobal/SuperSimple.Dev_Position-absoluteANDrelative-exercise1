@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position Absolute and Relative
+  </title>
+  
+  <style>
+    .button{
+      background: black;
+      color: white;
+      font-size: 70px;
+      font-family: roboto;
+      padding-top: 26px;
+      padding-bottom: 26px;
+      padding-left: 45px;
+      padding-right: 45px;
+      border-radius: 70px;
+      position: absolute;
+      top: 25px;
+      right: 38px;
+    }
+    
+    .div{
+      background: grey;
+      height: 280px;
+      width: 480px;
+      position: fixed;
+      top: 250px;
+      bottom: 0px;
+      right: 38px;
+    }
+    
+    .div-div{
+      background: grey;
+      height: 280px;
+      width: 480px;
+      position: fixed;
+      top: 600px;
+      bottom: 0px;
+      right: 38px;
+    }
+    
+    .x-button{
+      background: black;
+      color: white;
+      font-size: 65px;
+      font-family: roboto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 39px;
+      padding-right: 39px;
+      border-radius: 70px;
+      position: absolute;
+      top: -30px;
+      left: -30px;
+    }
+      
+    .exercise{
+      background: grey;
+      height: 280px;
+      width: 480px;
+      position: fixed;
+      top: 990px;
+      bottom: 0px;
+      right: 38px;
+    }
+       
+    .button-x{
+      background: black;
+      color: white;
+      font-size: 65px;
+      font-family: roboto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 39px;
+      padding-right: 39px;
+      border-radius: 70px;
+      position: absolute;
+      top: -30px;
+      left: -30px;
+    }
+    
+    .time{
+      background: black;
+      color: white;
+      font-size: 30px;
+      font-family: roboto;
+      font-weight: 500;
+      padding-top: 7.5px;
+      padding-bottom: 7.5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 3px;
+      position: absolute;
+      bottom: 16px;
+      right: 14px;
+    }
+  </style>
+</head>
+
+<body style="height: 3000px;">
+  <!-- 15a exercise -->
+  <div class="button">X</div>
+  
+  <!-- 15b exercise -->
+  <div class="div"></div>
+  
+  <!-- 15c exercise -->
+  <div class="div-div">
+      <div class="x-button">X</div>
+  </div>
+  
+  <!-- 15d exercise -->
+   <div class="exercise">
+      <div class="button-x">X</div>
+      <div class="time">0:30</div>
+  </div>
+</body>
+</html>
